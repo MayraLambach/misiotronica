@@ -1,0 +1,39 @@
+.contact {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #3e6868;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #3e6868;
+    border-radius: 3px;
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+
+.form-group input[type="submit"] {
+    background-color: #3e6868;
+    color: #f2ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #6b8e8e;
+}
