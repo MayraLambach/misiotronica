@@ -1,14 +1,17 @@
-import React from 'react'
+
 import './navBar.css'
 import Logo from './Logo';
-const NavBar = () => {
+
+
+function NavBar () {
   return (
     <div className='menu'>
       
       <nav className='nav'>
         <Logo />
-        <ul className='nav-menu'>
+        <h1>Misiotrónica</h1>
 
+        <ul className='nav-menu'>
           <li className='nav-item'>
           <a href='/' className='nav-link'>Inicio</a>
           </li>
@@ -26,6 +29,7 @@ const NavBar = () => {
           </li>
 
         </ul>
+     
       </nav>
     </div>
   )

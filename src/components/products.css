@@ -4,3 +4,9 @@
     gap: 5px; /* Espacio entre las imágenes */
     padding: 15px; /* Espacio alrededor del grid */
 }
+
+@media (max-width: 768) {
+    .products {
+        width: 80%;
+    }
+}
