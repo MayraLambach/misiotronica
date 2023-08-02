@@ -1,6 +1,6 @@
 .nav-menu {
     background-color: #3e6868;
-    width: 50%;
+
     display: flex;
     margin-right: 40px;
     list-style: none;
@@ -33,3 +33,23 @@
 .nav-link:hover {
     background-color: #98b3b3;
 }
+
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        right: 0;
+        padding: 20px 0;
+    }
+    
+    .nav-item {
+        line-height: 30px;
+    }
+    
+    .menu {
+        width: 70%;
+        position: sticky;
+    }
+}
+
+/*No logro hacerlo 100%  responsivo*/
