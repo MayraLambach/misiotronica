@@ -1,3 +1,11 @@
-img {
-    align-content: center;
+.banner {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 768px) {
+    #banner {
+        width: 70%;
+    }
 }

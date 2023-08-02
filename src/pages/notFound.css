@@ -1,0 +1,11 @@
+.bannererror {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 768px) {
+    .bannererror {
+        width: 70%;
+    }
+}

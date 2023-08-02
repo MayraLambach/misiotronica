@@ -5,4 +5,7 @@
 
 .about p {
     font-family: 'Courier New', Courier, monospace;
+    border: 3px solid #3e6868;
+    border-radius: 5px;
+    justify-content: center;
 }
