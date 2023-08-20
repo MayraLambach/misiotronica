@@ -1,20 +1,22 @@
+
+
 .nav-menu {
     background-color: #3e6868;
-
+    width: 100%;
     display: flex;
-    margin-right: 40px;
     list-style: none;
+    align-items: flex-end;
 }
 .nav {
-
     display: flex;
-    justify-content: space-between;
+
 }
 
 .nav-link {
     color: #f2ffff;
     font-weight: bold;
     text-decoration: none;
+    
 }
 
 .nav-item {
@@ -23,6 +25,7 @@
     line-height: 80px;
     text-transform: uppercase;
     width: max-content;
+
 }
 
 .nav-link {
